@@ -1,10 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int hp=100
-    hp-=30;
-    hp+=20;
-    hp-=15;
-    printf("最後生命值：%d",hp)
+    float a;
+    float b;
+    float c;
+    printf("請輸入三角形的底(cm):");
+    scanf("%f",&a);
+    printf("請輸入三角形的高(cm):");
+    scanf("%f",&b);
+    printf("三角形面積為：%.2f",c=a*b/2);
     return 0 ;
 }
